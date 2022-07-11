@@ -1,0 +1,6 @@
+.carrito-imagen {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
