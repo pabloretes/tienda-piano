@@ -24,7 +24,7 @@ function NavBar() {
             <Nav.Link href="#home">Categorias</Nav.Link>
             <Nav.Link href="#pricing">Contacto</Nav.Link>
           </Nav>
-            <CartWidget />
+            <CartWidget  items={3}/>
         </Container>
       </Navbar>
     </>
