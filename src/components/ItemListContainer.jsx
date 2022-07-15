@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../styles/itemListContainer.css';
 
 function ItemListContainer(props) {
   return (
-    <div> {props.greeting} </div>
+    <div className='itemList-container'> {props.greeting} </div>
   )
 }
 

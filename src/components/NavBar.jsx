@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import logo from "../images/logo.svg";
 import Nav from 'react-bootstrap/Nav';
 import CartWidget from "../components/CartWidget";
-
+import React from 'react';
 
 function NavBar() {
   return (
@@ -21,8 +21,8 @@ function NavBar() {
             Tienda Piano
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Categorias</Nav.Link>
-            <Nav.Link href="#pricing">Contacto</Nav.Link>
+            <Nav.Link href="#">Categorias</Nav.Link>
+            <Nav.Link href="#">Contacto</Nav.Link>
           </Nav>
             <CartWidget  items={3}/>
         </Container>
