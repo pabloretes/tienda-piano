@@ -1,5 +1,13 @@
 .footer-container {
     background-color: black;
-    height: 20vh;
     color: white;
+    padding: 5%;
   }
+
+.row-footer{
+    padding: 0px 0px 4rem 0px;
+}
+
+.logo-imagen {
+    width: 250px;
+}
