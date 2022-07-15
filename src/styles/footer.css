@@ -2,6 +2,7 @@
     background-color: black;
     color: white;
     padding: 5%;
+   
   }
 
 .row-footer{
@@ -10,4 +11,9 @@
 
 .logo-imagen {
     width: 250px;
+}
+
+.texto-blanco {
+    color: white;
+    text-decoration: none;
 }
