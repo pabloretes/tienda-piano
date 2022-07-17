@@ -18,18 +18,22 @@ function Footer() {
             </Col>
             <Col sm>
                 
-                   <p><a className="texto-blanco">Pianos</a></p>
-                   <p><a className="texto-blanco">Pianos de Cola</a></p>
-                   <p><a className="texto-blanco">Pianos Verticales</a></p>
+                 
+                   
+                   <p><a href="!#" className="texto-blanco">Minipianos</a></p>
+                   <p><a href="!#" className="texto-blanco">Pianos Verticales</a></p>
+                   <p><a href="!#" className="texto-blanco">Pianos de Cola</a></p>
+                   <p><a href="!#" className="texto-blanco">Pianos Económicos</a></p>
+                   
                
             </Col>
             <Col sm>
-                <p><a className="texto-blanco">Pianos</a></p>
-                <p><a className="texto-blanco">Pianos de Cola</a></p>
+                <p><a href="!#" className="texto-blanco"><strong>Escribenos a:</strong></a></p>
+                <p><a href="!#" className="texto-blanco">hola@tiendapiano.com</a></p>
             </Col>
             <Col sm>
-            <p><a className="texto-blanco">Pianos</a></p>
-                   <p><a className="texto-blanco">Pianos de Cola</a></p>
+            <p><a href="!#" className="texto-blanco"><strong>Suscribete a nuestro Newsletter</strong></a></p>
+                   <p><input type="text" placeholder="Ingresa tu email"/></p>
             </Col>
           </Row>
           <Row>

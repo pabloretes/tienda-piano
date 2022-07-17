@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id='inicio'>
       <NavBar/>
       <ItemListContainer greeting='Saludando al publico por props'/> 
      
