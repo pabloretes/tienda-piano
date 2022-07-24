@@ -28,7 +28,14 @@ function ItemDetail(props) {
                 <Image variant="top" src={ModeloB} />
             </Col>
             <Col>
-                <ItemCount />
+            <div>
+                <Modal.Title>MODELO B</Modal.Title>
+                <p> Es un instrumento maravillosamente equilibrado y versátil que funciona muy bien en hogares refinados, estudios de enseñanza y lugares de tamaño medio. también está disponible como STEINWAY SPIRIO, el mejor reproductor de piano de alta resolución del mundo.</p>
+            </div>
+            
+            <div>
+                <ItemCount stock='3'/>
+            </div>
             </Col>
           </Row>
            
@@ -36,7 +43,7 @@ function ItemDetail(props) {
         </Container>
       </Modal.Body>
       <Modal.Footer>
-        <Button className="btn-ver-detalle" onClick={props.onHide}>
+        <Button onClick={props.onHide}>
           Cerrar
         </Button>
       </Modal.Footer>

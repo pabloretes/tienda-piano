@@ -2,8 +2,18 @@
     color: black;
 }
 
+.card-style-count {
+    color: black;
+    border: solid 1px gainsboro;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
 .botones-sumres {
-    padding: 0 0 2rem 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .itemList-container {
@@ -33,8 +43,27 @@
 
   .card-subt {
     padding: 1rem;
+
   }
 
   .card-text-size {
     font-size: small;
+  }
+
+  .texto-contador {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+  }
+
+  .btn-sumres {
+    border: 0;
+    background: none;
+    font-size: 2rem;
+    color: gray;
+  }
+
+  .texto-stock {
+    color: red;
+    font-style: italic;
+    font-size: 0.8rem;
   }
