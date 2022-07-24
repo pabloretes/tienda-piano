@@ -9,14 +9,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App" id='inicio'>
-      <NavBar/>
-      <ItemListContainer greeting='Saludando al publico por props'/> 
-     
       <header>
-    
-        
+        <NavBar />
       </header>
-      <Footer/>
+      <ItemListContainer greeting='Saludando al publico por props' />
+      <Footer />
     </div>
   );
 }
