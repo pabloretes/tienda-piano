@@ -1,27 +1,34 @@
 import React from "react";
 import "../styles/item.css";
 import Card from "react-bootstrap/Card";
-import Teclas1 from "../images/teclas1.jpg";
 import Button from "react-bootstrap/Button";
 import Badge from 'react-bootstrap/Badge';
+import ItemDetail from "./ItemDetail";
+import ModeloB from "../images/ModeloB.png";
+
 
 function Item() {
+    const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="card-style">
       <Card style={{ width: "24rem" }}>
-        <Card.Img variant="top" src={Teclas1} />
+        <Card.Img variant="top" src={ModeloB} />
         <Card.Body>
-          <Card.Title>STEINWAY SPIRIO</Card.Title>
-          <Card.Text>
-            El piano de cola de concierto D-274 está presente en más del 95% de
-            los grandes escenarios del mundo, donde fascina al público con su
-            excelente sonido.
-          </Card.Text>
-          <div>
-            <Button variant="primary">Ver detalle</Button>
+          <div className="card-subt"><Card.Subtitle>Piano de Cola Steiwey & Sons - Modelo B</Card.Subtitle></div>
+          <div className="card-text-size">
+            <Card.Text>
+                Este magnífico piano de cola de 6 '11 "(211 cm) es a menudo llamado por los pianistas" el piano perfecto ".
+            </Card.Text>
+          </div>
+          <div className="card-subt"><Card.Subtitle>USD 4.000.00.-</Card.Subtitle></div>
+         
+          <div className="button-item-detail">
+            <Button className="btn-ver-detalle" variant="primary" onClick={() => setModalShow(true)}>Ver detalle</Button>
+            <ItemDetail show={modalShow} onHide={() => setModalShow(false)} />
           </div>
           <div>
-            <Badge bg="secondary">Stock: 3</Badge>{' '}
+          <Card.Footer className="text-muted"> <Badge bg="secondary">Stock: 3</Badge>{' '}</Card.Footer>
+           
           </div>
         </Card.Body>
       </Card>

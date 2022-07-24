@@ -5,3 +5,36 @@
 .botones-sumres {
     padding: 0 0 2rem 0;
 }
+
+.itemList-container {
+    background-color: white;
+    color: black;
+    padding: 3rem;
+  }
+
+  .button-item-detail {
+    padding: 0 0 2rem 0;
+  }
+
+  .linea {
+    border-top: 0.5px solid white;
+    height: 0.5px;
+    max-width: 90%;
+    padding: 0;
+    margin: 20px auto 20px auto;
+    vertical-align: bottom;
+  }
+
+  .btn-ver-detalle{
+    background: #efb810;
+    border-radius: 0%;
+    border-color: #efb810;
+  }
+
+  .card-subt {
+    padding: 1rem;
+  }
+
+  .card-text-size {
+    font-size: small;
+  }
