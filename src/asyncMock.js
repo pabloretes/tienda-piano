@@ -1,6 +1,6 @@
 const products = [
     {
-        id: 1, 
+        id: '1', 
         marca: 'Steiwey & Sons', 
         modelo: 'Modelo A',
         categoria: 'Piano de Cola',
@@ -11,7 +11,7 @@ const products = [
         img: 'https://images.squarespace-cdn.com/content/v1/5c86b8eeebfc7fade3aa9854/1552490555607-GXOEFTB2TGW1BN83DZIC/Captura+de+pantalla+2019-03-13+a+la%28s%29+9.20.38.png?format=500w'
     },
     {
-        id: 2, 
+        id: '2', 
         marca: 'Steiwey & Sons', 
         modelo: 'Modelo B',
         categoria: 'Piano de Cola',
@@ -22,7 +22,7 @@ const products = [
         img: 'https://images.squarespace-cdn.com/content/v1/5c86b8eeebfc7fade3aa9854/1552491055766-GSNKNZPZSKAOCZNZDTYS/Captura+de+pantalla+2019-03-13+a+la%28s%29+9.28.31.png?format=500w'
     },
     {
-        id: 3, 
+        id: '3', 
         marca: 'Steiwey & Sons', 
         modelo: 'Modelo D',
         categoria: 'Piano de Cola',
