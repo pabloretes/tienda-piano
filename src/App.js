@@ -12,7 +12,7 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <ItemListContainer greeting='Saludando al publico por props' />
+      <ItemListContainer />
       <Footer />
     </div>
   );

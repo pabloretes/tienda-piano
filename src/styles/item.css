@@ -67,3 +67,20 @@
     font-style: italic;
     font-size: 0.8rem;
   }
+
+  .horizontal {
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+  }
+
+  .li-centrado {
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .img-producto {
+    height: 22rem;
+  }

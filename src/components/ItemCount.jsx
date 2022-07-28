@@ -4,7 +4,7 @@ import "../styles/item.css";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-function ItemCount({stock}) {
+function ItemCount({ stock, onAdd }) {
   const [contador, setContador] = useState(1);
   
   const increment = () => {
@@ -32,7 +32,7 @@ function ItemCount({stock}) {
         </div>
       </div>
   
-      <Button className="btn-ver-detalle" variant="primary">Comprar</Button>
+      <Button className="btn-ver-detalle" variant="primary" onClick={() => onAdd(contador)}>Agregar al carrito</Button>
   </Row>
   </Container>
    </>
