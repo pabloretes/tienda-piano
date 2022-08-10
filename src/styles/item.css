@@ -87,3 +87,12 @@
   .img-producto {
     height: 22rem;
   }
+
+  .item-detail{
+    margin: 4rem;
+    border: 1px solid gray;
+  }
+
+  .row-item{
+    margin: 2rem 0;
+  }
