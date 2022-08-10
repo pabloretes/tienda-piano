@@ -1,6 +1,6 @@
 import React from 'react';
 import carrito from '../images/carrito.png';
-import '../styles/NavBar.css'  
+import '../styles/NavBar.css';
 
 function CartWidget({items}) {
   return (

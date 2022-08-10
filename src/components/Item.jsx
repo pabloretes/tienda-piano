@@ -5,10 +5,11 @@ import Button from "react-bootstrap/Button";
 import Badge from 'react-bootstrap/Badge';
 import ItemDetail from "./ItemDetail";
 import Modal from 'react-bootstrap/Modal';
+import { Link } from 'react-router-dom';
 
 
 
-function Item({product}) {
+const Item = ({product}) => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -30,7 +31,8 @@ function Item({product}) {
             <Card.Subtitle>USD ${product.precio}.-</Card.Subtitle>
           </div>
           <div className="button-item-detail">
-            <Button className="btn-ver-detalle" variant="primary" onClick={handleShow}>Ver Detalle</Button>
+            <Button className="" variant="primary" onClick={handleShow}>Ver Detalle</Button>
+            <Link className="btn-ver-detalle" variant="primary" to={`/detail/${product.id}`}> Ver Detalle</Link>
           </div>
           <div>
             <Card.Footer className="text-muted"> <Badge bg="secondary">Stock: {product.stock}</Badge>{' '}</Card.Footer>

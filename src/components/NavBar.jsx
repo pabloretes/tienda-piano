@@ -24,7 +24,7 @@ function NavBar() {
             </div>
           <Nav className="me-auto">
            <NavDropdown title="CATEGORIAS" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Pianos de Cola</NavDropdown.Item>
+              <NavDropdown.Item>Pianos de Cola</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Pianos Verticales</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Pianos Económicos</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Minipianos</NavDropdown.Item>

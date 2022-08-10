@@ -37,8 +37,11 @@
 
   .btn-ver-detalle{
     background: #efb810;
-    border-radius: 0%;
+    border-radius: 5%;
     border-color: #efb810;
+    color:  white;
+    text-decoration: none;
+    padding: 0.5rem;
   }
 
   .card-subt {
